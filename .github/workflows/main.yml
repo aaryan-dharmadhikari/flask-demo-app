@@ -70,7 +70,7 @@ jobs:
 
     - name: ImPaaS-Deploy
       id: impaas-deploy
-      uses: /impaas/impaas-deploy@v1
+      uses: /impaas/impaas-deploy@v1.2
       with:
         app-name: ${{ secrets.APP_NAME }}
         deployment-token: ${{ secrets.DEPLOYMENT_TOKEN }}
