@@ -70,8 +70,7 @@ jobs:
 
     - name: Deploy App to ImPaaS
       run: |
-        echo ${{ github.repository_owner }}
-        echo ${{ github.repository }}
+        ls -al  
 
     - name: ImPaaS-Deploy
       id: impaas-deploy
